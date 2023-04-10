@@ -6,6 +6,13 @@
 
 Given a text for example email, classify whether it is a rejection of job application.
 
+## Install
+
+````sh
+pip install -r requirements.txt 
+python -m spacy download en_core_web_sm\
+````
+
 Run below command will start a Flask web service (port 5000)
 
 ````sh
